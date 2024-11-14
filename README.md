@@ -9,8 +9,6 @@ A German language adaptation of the popular Wordle game. This version allows pla
 - [Game Rules](#game-rules)
 - [Customization](#customization)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **German Word Base**: Uses a list of 5-letter German nouns starting with a capital letter.
