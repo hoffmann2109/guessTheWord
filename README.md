@@ -83,3 +83,6 @@ A German language adaptation of the popular Wordle game. This version allows pla
 - **Python**: Core programming language.
 - **Tkinter**: GUI framework for Python.
 - **NLTK**: Natural Language Toolkit for word list handling.
+
+
+Happy playing and viel Spaß!
