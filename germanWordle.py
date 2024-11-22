@@ -11,6 +11,12 @@ def load_german_words():
         german_words = [line.strip().lower() for line in file if len(line.strip()) == 5]
     return german_words
 
+# Load solution words from the list with more common nouns (solution_words.txt)
+def load_solution_words():
+    with open("solution_words.txt", "r", encoding="utf-8") as file:
+        solution_words = [line.strip().lower() for line in file if len(line.strip()) == 5]
+    return solution_words
+
 # Feedback colors
 COLORS = {
     "correct": "green",
@@ -19,15 +25,15 @@ COLORS = {
     "default": "white"
 }
 
-
 class WordleApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Deutsches Wordle")
 
-        # Load words and select a target word
-        self.word_list = load_german_words()
-        self.target_word = random.choice(self.word_list)
+        # Load words for guesses and solutions
+        self.word_list = load_german_words()  # Full list for guesses
+        self.solution_list = load_solution_words()  # Curated list for solutions
+        self.target_word = random.choice(self.solution_list)  # Select a target word
         self.attempts = 6
         self.current_attempt = 0
         self.guess = ""
