@@ -26,11 +26,11 @@ A German language adaptation of the popular word guessing game. This version all
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/german-wordle.git
+   git clone ...
    ```
 2. Navigate to the project directory:
    ```bash
-   cd german-wordle
+   cd guessTheWord
    ```
 3. Install the required dependencies:
    - The `nltk` package is required for word handling.
