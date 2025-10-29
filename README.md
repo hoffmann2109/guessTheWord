@@ -1,6 +1,6 @@
-# Deutsches Wordle
+# German word guessing game
 
-A German language adaptation of the popular Wordle game. This version allows players to guess 5-letter German nouns, with color-coded feedback after each guess.
+A German language adaptation of the popular word guessing game. This version allows players to guess 5-letter German nouns, with color-coded feedback after each guess.
 
 ## Table of Contents
 - [Features](#features)
