@@ -41,23 +41,19 @@ A German language adaptation of the popular word guessing game. This version all
 
 4. Download the `words` dataset used by nltk:
    ```python
-   import nltk
-   nltk.download("words")
+   python3 -c "import nltk; nltk.download('words')"
    ```
 
-5. Ensure the following files are in the project directory:
-   - `five_letter_german_nouns.txt`: Full list of 5-letter German nouns for guesses.
-   - `solution_words.txt`: Curated list of 5-letter German nouns for target words.
-
-6. (Optional) If you need to generate a new `solution_words.txt` file, run:
-   ```bash
-   python generate_solution_words.py
-   ```
-
+5. Make sure `tkinter` is installed on your system:
+  e.g. for Fedora
+  ``` bash
+  sudo dnf install python3-tkinter
+  ```
+   
 ## Usage
 1. Run the game using Python:
    ```bash
-   python wordle_game.py
+   python germanWordle.py
    ```
 
 2. Type a 5-letter German word (noun) using your keyboard.
